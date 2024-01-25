@@ -39,6 +39,4 @@ If you'd like to contribute to this project, please follow the steps outlined in
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Acknowledgments
 
-- Special thanks to Sitthiwat Damrongpreechar for creating this project.
