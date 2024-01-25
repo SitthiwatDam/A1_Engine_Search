@@ -31,12 +31,13 @@ This project is part of an assignment focusing on creating a search engine, a pr
     docker-compose down
     ```
 
-## Contributing
+# License
 
-If you'd like to contribute to this project, please follow the steps outlined in the [Contributing](CONTRIBUTING.md) guide.
+This project is free and unencumbered software released into the public domain.
 
-## License
+You can copy, modify, distribute, and perform the work, even for commercial purposes, without asking for permission.
 
-This project is licensed under the [MIT License](LICENSE).
+See [LICENSE](LICENSE) for more details.
+
 
 
