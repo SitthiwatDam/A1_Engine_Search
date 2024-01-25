@@ -1,20 +1,14 @@
 version: '3'
 services:
   engine_search:
-    # command: .
     image: sittiwat555/engine_search:lastest
     build:
       context: .
       dockerfile: DockerFile.a1st123994
-    environment:
-      - HOST=0.0.0.0
-      - PORT=80
     ports:
-      - 9001:80
+      - 5000:5000
     volumes:
       - ./code:/root/code
-    # env_file:
-    #   - .env
-volumes:
-  vscode-server:
+
+
   

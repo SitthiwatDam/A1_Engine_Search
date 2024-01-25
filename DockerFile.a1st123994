@@ -5,20 +5,15 @@ WORKDIR /root/code
 # Install dependencies
 
 RUN pip3 install --upgrade pip
-RUN pip3 install ipykernel
-RUN pip3 install scikit-learn
 RUN pip3 install numpy
 RUN pip3 install pandas
-RUN pip3 install seaborn
-RUN pip3 install torch
-RUN pip3 install matplotlib
-RUN pip3 install nltk
+RUN pip3 install Flask==3.0.1
 
 # Copy the entire project to the working directory
 COPY ./code /root/code  
 
-# Start the Vite development server
-CMD tail -f /dev/null
+# CMD tail -f /dev/null
+CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0"]
 
 
 
