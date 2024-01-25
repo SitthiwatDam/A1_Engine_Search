@@ -1,6 +1,6 @@
 # A1 Engine Search
 
-This project is a Flask web application that allows users to search for words and find the most similar words based on Glove embeddings using dot product similarity.
+This project is part of an assignment focusing on creating a search engine, a practical application of information retrieval in natural language processing (NLP). The search engine, deployed on a website, is designed to return the top paragraphs with the highest similarity to a given query, such as "Harry Potter." The project involves building upon existing code, implementing word embedding techniques, and creating a web interface for the search engine.
 
 ## Quick Start with Docker Compose
 
